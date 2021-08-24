@@ -2,6 +2,8 @@ package com.yusj.firstLearning;
 
 import com.yusj.firstLearning.basic.concurrency.thread.MyRunnable;
 
+import java.util.*;
+
 /**
  * Hello world!
  *
@@ -25,6 +27,10 @@ public class App
         System.out.println(d == e);
         System.out.println(a == f);
 
+        Map<String,String> map = new HashMap<String, String>();
+        map.put("a","b");
+
+
       }
-      
+
 }
