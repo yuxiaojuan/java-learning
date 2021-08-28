@@ -54,12 +54,11 @@ public class App
 //        Arrays.sort();
 //        Collections.sort();
 //        PriorityBlockingQueue;
-        Map<String,String> map = new LinkedHashMap();
-        map.put("a","b");
-        Executors.newFixedThreadPool()
-        ThreadLocal<String> threadLocal = new ThreadLocal<>();
-        Map<String,String> map = new HashMap<String, String>();
-        map.put("a","b");
+//        Map<String,String> map = new LinkedHashMap();
+//        map.put("a","b");
+//        ThreadLocal<String> threadLocal = new ThreadLocal<>();
+//        Map<String,String> map = new HashMap<String, String>();
+//        map.put("a","b");
 
 
       }
