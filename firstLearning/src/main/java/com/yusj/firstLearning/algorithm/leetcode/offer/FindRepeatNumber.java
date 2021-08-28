@@ -14,7 +14,7 @@ public class FindRepeatNumber {
             }
         }
         int[][] a = new int[2][3];
-//        a.length
+//        a.length;
         return -1;
     }
 

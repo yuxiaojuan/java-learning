@@ -1,7 +1,11 @@
-package com.yusj.firstLearning.algorithm.sort;
+package com.yusj.firstLearning.algorithm.sort.quick_sort;
 
 import java.util.Arrays;
 
+/**
+ * 快速排序
+ * 使用了分治法，在每一轮挑选一个基准元素，并让其他比它大的元素移动到数列一边，比它小的元素移动到数列的另一边，从而把数列拆解成了两个部分
+ */
 public class QuickSort {
 
     public static void main(String[] args) {
