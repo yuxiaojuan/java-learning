@@ -168,6 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.BeamDemo" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.App" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BinarySearch" />
@@ -220,6 +227,12 @@
     <MESSAGE value="link" />
     <MESSAGE value="leetcode" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="934" y="447" key="git4idea.merge.GitPullDialog" timestamp="1630138715700">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="934" y="447" key="git4idea.merge.GitPullDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1630138715700" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
