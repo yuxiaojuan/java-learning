@@ -1,6 +1,8 @@
 package com.yusj.firstLearning.algorithm.leetcode.tree;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -13,7 +15,30 @@ public class PostOrderTraversal {
      * @return
      */
     public static List<Integer> postorderInteration(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        if (root == null){
+            return list;
+        }
+        Deque<TreeNode> stack = new LinkedList<>();
+        TreeNode pre = null;
+        while (root != null || !stack.isEmpty()){
+            while (root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if(root.right == null || root.right == pre){
+                list.add(root.val);
+                pre = root;
+                root = null;
+            }else{
+                stack.push(root);
+                root = root.right;
+            }
 
+        }
+
+        return list;
     }
 
     /**

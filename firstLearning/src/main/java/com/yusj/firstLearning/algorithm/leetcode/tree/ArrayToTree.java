@@ -15,7 +15,8 @@ public class ArrayToTree {
         Integer[] input = new Integer[]{1,2,3,4,null};
         TreeNode root = arrayToTreeNode(input);
 
-        int i = 1;
+        List<Integer> list = PostOrderTraversal.postorderInteration(root);
+        System.out.println(list);
     }
 
     public static TreeNode arrayToTreeNode(Integer[] array){
