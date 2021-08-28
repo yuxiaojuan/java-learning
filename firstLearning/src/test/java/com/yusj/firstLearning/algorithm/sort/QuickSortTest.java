@@ -1,6 +1,7 @@
 package com.yusj.firstLearning.algorithm.sort;
 
 
+import com.yusj.firstLearning.algorithm.sort.quick_sort.QuickSort;
 import org.junit.Test;
 
 import java.util.ArrayList;
