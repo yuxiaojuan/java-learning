@@ -12,10 +12,10 @@ public class ArrayToTree {
     public static void main(String[] args) {
         System.out.println("hello");
 
-        Integer[] input = new Integer[]{1,2,3,4,null};
+        Integer[] input = new Integer[]{1,2,3,null,null,4,5,null,6};
         TreeNode root = arrayToTreeNode(input);
 
-        List<Integer> list = PostOrderTraversal.postorderInteration(root);
+        List<List<Integer>> list = LevelOrderTraversal.levelorderTraversal(root);
         System.out.println(list);
     }
 

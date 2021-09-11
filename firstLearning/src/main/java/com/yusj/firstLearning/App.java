@@ -21,6 +21,11 @@ public class App
         String d = "a" + "b" +"c";
         String e = "ab" + "c";
         String f = new String("abc");
+        String g = "a";
+        String h = "bc";
+        String k = g + h;
+        String l = g + "bc";
+        String m = "a" + h;
         System.out.println(a == b);
         System.out.println(a == c);
         System.out.println(a == d);
@@ -29,6 +34,9 @@ public class App
         System.out.println(c == e);
         System.out.println(d == e);
         System.out.println(a == f);
+        System.out.println(a == k);
+        System.out.println(a == l);
+        System.out.println(a == m);
 
         Random r = new Random();
         for(int i=0;i<20;i++){
@@ -54,13 +62,17 @@ public class App
 //        Arrays.sort();
 //        Collections.sort();
 //        PriorityBlockingQueue;
-//        Map<String,String> map = new LinkedHashMap();
-//        map.put("a","b");
+        Map<String,String> map = new LinkedHashMap();
+        map.put("a","b");
 //        ThreadLocal<String> threadLocal = new ThreadLocal<>();
 //        Map<String,String> map = new HashMap<String, String>();
 //        map.put("a","b");
 
-
+//        String a;
+//        Collections.reverse();
+//        char[] s = new char[];
+//        StringBuilder test = new StringBuilder();
+//        test.length()
       }
 
 }
