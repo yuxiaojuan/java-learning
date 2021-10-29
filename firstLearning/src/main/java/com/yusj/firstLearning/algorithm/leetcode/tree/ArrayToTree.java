@@ -25,13 +25,16 @@ public class ArrayToTree {
         }
         TreeNode root = new TreeNode(array[0]);
         Queue<TreeNode> queue = new LinkedList<>();
+        //加在最后
         queue.add(root);
         boolean isLeft = true;
         for(int i = 1; i < array.length; i++){
+            //从头取数据，但是不删除
             TreeNode node = queue.peek();
             if(isLeft){
                 if(array[i] != null){
                     node.left = new TreeNode(array[i]);
+                    //加在最后
                     queue.offer(node.left);
                 }
                 isLeft = false;
@@ -40,6 +43,7 @@ public class ArrayToTree {
                     node.right = new TreeNode(array[i]);
                     queue.offer(node.right);
                 }
+                //从头取数据，并删除队列中的这个数据
                 queue.poll();
                 isLeft = true;
             }

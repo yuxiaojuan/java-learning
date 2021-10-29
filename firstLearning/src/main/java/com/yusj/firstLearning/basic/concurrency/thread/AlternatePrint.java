@@ -58,7 +58,7 @@ public class AlternatePrint {
 
         Thread a = new Thread(() -> {
             alternatePrint.printABC1("A",0);
-        });
+        },"A");
 
         Thread b = new Thread(() -> {
             alternatePrint.printABC1("B",1);
